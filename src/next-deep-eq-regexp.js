@@ -17,7 +17,7 @@
     }
 
     if (isRegExp1 && isRegExp2) {
-      return inReg1.toString() === inReg1.toString();
+      return inReg1.toString() === inReg2.toString();
     }
 
     return false;
