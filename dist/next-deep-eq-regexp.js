@@ -15,9 +15,12 @@
     if (isRegExp1 != isRegExp2) {
       return false;
     }
+
     if (isRegExp1 && isRegExp2) {
       return inReg1.toString() === inReg1.toString();
     }
+
+    return false;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
