@@ -16,7 +16,7 @@
       return false;
     }
     if (isRegExp1 && isRegExp2) {
-      return inReg1.getTime() === inReg1.getTime();
+      return inReg1.toString() === inReg1.toString();
     }
   };
 
