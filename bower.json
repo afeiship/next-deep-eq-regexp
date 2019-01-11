@@ -1,0 +1,28 @@
+{
+  "name": "next-deep-eq-regexp",
+  "version": "0.0.1",
+  "description": "Equal regexp for next",
+  "main": "dist/next-deep-eq-regexp.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-deep-eq-regexp",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
